@@ -18,7 +18,7 @@ jobs:
       - name: Get Base Config
         uses: actions/checkout@v4
         with:
-          repository: Vegetable-SYC/docs-base-config
+          repository: Vegetable-SYC/docs_master
           path: base-config 
           
       - name: Merge Config
